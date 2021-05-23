@@ -1,0 +1,11 @@
+---
+application:
+  name: "strapi-mysql"
+  project: "backend"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-strapi-mysql"
+  routes:
+  - application_name: "strapi-mysql"
+    paths:
+    - "/*"
